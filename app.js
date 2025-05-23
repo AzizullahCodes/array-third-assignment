@@ -43,26 +43,26 @@
 // var fruits = ['apple','mango','orange','guava'];
 // alert('the scond fruit is : ' + fruits[1]); 
 
-// // 🧠 Assignment 4:push method 
-                // var fruits = ['apple','mango','orange','guava']; 
-                // fruits.push('lemon');
-                // console.log(fruits);
+//  🧠 Assignment 4:push method 
+                //  var fruits = ['apple','mango','orange','guava']; 
+                //  fruits.push('lemon');
+                //  console.log(fruits);
 
                 //  var fruits = ['apple','mango','orange','guava'];
                 
                 // // 🧠 Assignment 5:shift method
+                //   var fruits = ['apple','mango','orange','guava']; 
+                //   fruits.shift();
+                //   console.log(fruits); 
+
+                // // 🧠 Assignment 6: shift method 
                 //  var fruits = ['apple','mango','orange','guava']; 
                 //  fruits.shift();
                 //  console.log(fruits); 
-
-                // // 🧠 Assignment 6: shift method 
-                // var fruits = ['apple','mango','orange','guava']; 
-                // fruits.shift();
-                // console.log(fruits); 
 // // 🧠 Assignment 7:splice method 
-                // var fruits = ['apple','mango','orange','guava'];
-                // fruits.splice(3,1,'banana')
-                // console.log(fruits); 
+                //  var fruits = ['apple','mango','orange','guava'];
+                //  fruits.splice(3,1,'banana')
+                //  console.log(fruits); 
 
                 // // 🧠 Assignment 8:reverse method 
                 //  var fruits = ['apple','mango','orange','guava'];
@@ -306,3 +306,83 @@
 // console.log(dailyRoutine);
 // dailyRoutine[2] = 'Do javascript  splice assignment';
 // console.log(dailyRoutine);
+
+// ✅ Assignment 32: Find Duplicates
+// Task:
+// Write a function that returns all duplicate values in an array using indexOf and lastIndexOf.
+
+// Example Input:
+
+// findDuplicates([1, 2, 3, 2, 4, 3, 5]);
+// ans
+// var array = [1,2,3,2,4,3,5]; 
+//  var check = array.indexOf(3);
+// console.log(check);
+// var last = array.lastIndexOf(3);
+// console.log(last);
+
+// ✅ Assignment 33: lastIndexOf() 
+// var fruits = ['apple','lemon','orange','grapes','guava','lemon','sugar-cane'];
+// var ind = fruits.lastIndexOf('lemon');
+// console.log(ind);
+ 
+// ✅ Assignment 34: make array empty 
+// var fruits = ['apple','lemon','orange','grapes','guava','lemon','sugar-cane'];
+// fruits.length = 0;
+// console.log(fruits);
+
+
+// ✅ Assignment 35: indexOf() by prompt 
+// var fruit = ['apple','lemon','orange','grapes','guava','lemon','sugar-cane'];
+// var check = prompt('enter fruit name for check its index number');
+// if (check == fruit[0]||
+//         check == fruit[1]||
+//         check == fruit[2]||
+//         check == fruit[3]||
+//         check == fruit[4]||
+//         check == fruit[5]||
+//         check == fruit[6]       
+// ) {var ind = fruit.indexOf(check)
+//         {console.log(ind)}  
+// }
+// else{console.log('item not available in list that are you searching');}
+
+// ==========================================================================================================
+// // 🧩 Assignment 36: Insert in Middle
+// Task:
+// // Given an array [1, 2, 4, 5], insert the number 3 at the correct position so the array becomes [1, 2, 3, 4, 5].
+// ans 
+// var array = [1,2,4,5]; 
+// array.splice(2,0,3);
+// console.log(array);
+// ===================================================================================
+// // 🧩 Assignment 37: Remove Element
+// Task:
+// Given an array ['a', 'b', 'c', 'd'], remove 'c' using splice().
+// var array = ['a','b','c','d'];
+// array.splice(2,1);
+// console.log(array);
+// ====================================================================================
+// 🧩 Assignment 38: Replace Element
+// Task:
+// Given an array ['red', 'green', 'blue'], replace 'green' with 'yellow' using splice().
+// var array = ['red', 'green', 'blue']; 
+// array.splice(1,1,'yellow');
+// console.log(array);
+// ============================================================================
+
+// 🧩 Assignment 39: Remove Multiple Items
+// Task:
+// Given an array [10, 20, 30, 40, 50], remove the middle two elements (20 and 30)
+// var  array = [10,20,30,40,50];
+// array.splice(2,2); 
+// console.log(array); 
+// =============================================================================
+// 🧩 Assignment 40: Insert Without Deleting
+// Task:
+// Given an array ['apple', 'banana', 'cherry'], 
+// insert 'orange' between 'banana' and 'cherry' without deleting anything. 
+
+// var array = ['apple', 'banana', 'cherry'];
+// array.splice(2,0,'orange');
+// console.log(array);
