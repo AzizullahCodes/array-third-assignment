@@ -185,5 +185,124 @@
 
 
          // 🧠 Assignment 25:splice method; 
-var animals = ['cat','dog','cow','goat'];
-var find = animals.indexOf('dog')
+        // var animals = ['cat','dog','cow','goat'];
+        // var check = prompt('enter an item');
+        // var checkIndexOf = animals.indexOf(check);
+        // console.log(checkIndexOf);
+        // animals.splice(checkIndexOf,1);
+        // console.log(animals);
+        // animals.unshift('camel');
+        // console.log(animals);
+
+        // 🧠 Assignment 26:slice method;
+        // var fruits = ['apple','guava','orange','banana','lemon'];
+        // var copy = fruits.slice(2);
+        // console.log(copy);
+
+        // 🧠 Assignment 27:splice method;
+        // var fruits = ['apple','guava','orange']; 
+        //  fruits.splice(2,0,'banana','sugarcane');
+        // console.log(fruits);
+
+
+
+
+ // 🧠 Assignment 28:
+//          Shopping Cart Manager
+// Goal: Simulate a simple shopping cart using an array.
+
+// Features to implement:
+
+// Start with an array: ["Milk", "Bread", "Eggs"]
+
+// Use splice() to:
+
+// Remove "Bread" (user decides to remove it)
+
+// Add "Butter" and "Cheese" between "Milk" and "Eggs" (user adds them)
+
+// Replace "Eggs" with "Almond Milk" (out of stock)
+
+// ➡️ Practice removing, adding, and replacing items.
+// ans
+// var array = ["Milk", "Bread", "Eggs"]; 
+// array.splice(1,1);
+// console.log(array);
+// array.splice(1,0,'butter','cheese');
+// console.log(array);
+// array[3] = 'almond milk';
+// console.log(array); 
+
+
+// 📚 Mini Project 29: Class Roll Sheet Editor
+// Goal: Manage a student list using splice().
+
+// Start with:
+// ["Ali", "Sara", "Ahmed", "Zara"]
+
+// Actions:
+
+// "Ahmed" leaves the class. Remove him.
+
+// "Bilal" joins between "Sara" and "Zara".
+
+// Replace "Sara" with "Fatima" (name correction).
+
+// ➡️ Real-life data editing practice.
+//  ans 
+// var student = ["Ali", "Sara", "Ahmed", "Zara"];
+// student.splice(2,1);
+// console.log(student);
+// student.splice(2,0,'bilal');
+// console.log(student);
+// student[1] = 'Fatima';
+// console.log(student);       
+
+// 🎬 Mini Project 30: Movie Playlist
+// Goal: Build a custom movie playlist.
+
+// Start with:
+// ["Inception", "Titanic", "Avatar", "Interstellar"]
+
+// Use splice() to:
+
+// Remove "Titanic" (user doesn’t like it)
+
+// Add "The Matrix" at the beginning
+
+// Replace "Avatar" with "Dune"
+
+// ➡️ Understand array index manipulation with media items.
+// ans 
+        // var film = ["Inception", "Titanic", "Avatar", "Interstellar"];
+        // film.splice(1,1);
+        // console.log(film);
+        // film.splice(0,0,'matrics');
+        // console.log(film); 
+        // film[2] = 'Dune';
+        // console.log(film); 
+
+//         ✏️ Mini Project 31: To-Do List Editor
+// Goal: Manage daily tasks with an array.
+
+// Start with:
+// ["Wake up", "Exercise", "Study JavaScript", "Dinner"]
+
+// Simulate these actions:
+
+// Remove "Exercise" (skipped today)
+
+// Add "Check emails" after "Wake up"
+
+// Replace "Study JavaScript" with "Do JavaScript Splice Assignment"
+
+// ➡️ A fun, personal productivity example.
+
+// ans 
+// var dailyRoutine = ["Wake up", "Exercise", "Study JavaScript", "Dinner"];
+// dailyRoutine.splice(1,1);
+// console.log(dailyRoutine);
+// dailyRoutine.splice(1,0,'checkEmails'); 
+// console.log(dailyRoutine);
+// dailyRoutine[2] = 'Do javascript  splice assignment';
+// console.log(dailyRoutine);
